@@ -1,10 +1,20 @@
 // Author: Andrez De La Torre
 // Date: August 31, 2025
-// Assignment: Hello World
+// Project name: Gozinta
 
 #include <iostream>
 
-int main() {
-    std::cout << "Hello, World!" << std::endl;
+
+int main () {
+    int firstNumber, secondNumber;
+
+    std::cout << "Please enter first number for your division problem: ";
+    std::cin >> firstNumber;
+
+    std::cout << "Enter second number for your division problem: ";
+    std::cin >> secondNumber;
+
+    std::cout << firstNumber << " gonzinta " << secondNumber <<" " << (firstNumber / secondNumber) << "times with a remainder of " << (firstNumber % secondNumber);
+
     return 0;
 }
