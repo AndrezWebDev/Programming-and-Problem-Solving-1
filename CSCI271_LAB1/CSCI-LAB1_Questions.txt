@@ -1,0 +1,15 @@
+// Author: Andrez De La Torre
+// Date: 09/8/2025
+// Project Name: Activity Questions
+
+1. When we try to assign 1.75 to an int variable we get an error because we are trying to assign a decimal number to an integer which can only hold whole number values. We should assign it to a double data type since that can hold decimal values.
+
+2. When we have the user input 3.14 and hello it didn't enter the input it just ran code and put 0 for the values that the user should have entered.
+
+3. It's important to use double because it will make sure our result will be a whole number cutting off anything after the decimal point. If we removed the (double) and kept quotient as a double type it just makes it into a variable which will make the decimal precision lost. We get error: assignment of read-only variable 'PI' because we can not change a variable with a const because we told it at the beginning that this variable throughout our code can't be change.
+
+4. The difference between them is when we declared the variable local_var in our main function we can only use inside that main function in our curly braces. On the other hand when declared the other variables in Global Scope that allows us to use across our code no matter where we call it. We did not see the local_var out side of the main execution because it only works when the program is running and after it will destroy it once it's been used.
+
+5. When you enter your full name with spaces it will only read the input until it hits the first whitespace character. In order to fix this we must use the function std::getline() so instead of writing std::cin >> fullName; you would type std::getLine(std::cin, fullName);
+
+6. The statements that print out are 1 for a bool variable that holds true. When we print false it prints out 0.
